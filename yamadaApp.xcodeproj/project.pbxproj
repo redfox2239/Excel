@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F28CC9F1DCF4D6800D485F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28CC9E1DCF4D6800D485F8 /* AppDelegate.swift */; };
+		7F28CCA11DCF4D6800D485F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28CCA01DCF4D6800D485F8 /* ViewController.swift */; };
+		7F28CCA41DCF4D6800D485F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F28CCA21DCF4D6800D485F8 /* Main.storyboard */; };
+		7F28CCA61DCF4D6800D485F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F28CCA51DCF4D6800D485F8 /* Assets.xcassets */; };
+		7F28CCA91DCF4D6800D485F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F28CCA71DCF4D6800D485F8 /* LaunchScreen.storyboard */; };
+		7F28CCB41DCF4D6800D485F8 /* yamadaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28CCB31DCF4D6800D485F8 /* yamadaAppTests.swift */; };
+		7F28CCBF1DCF4D6800D485F8 /* yamadaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F28CCBE1DCF4D6800D485F8 /* yamadaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F28CCB01DCF4D6800D485F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F28CC931DCF4D6800D485F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F28CC9A1DCF4D6800D485F8;
+			remoteInfo = yamadaApp;
+		};
+		7F28CCBB1DCF4D6800D485F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F28CC931DCF4D6800D485F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F28CC9A1DCF4D6800D485F8;
+			remoteInfo = yamadaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F28CC9B1DCF4D6800D485F8 /* yamadaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yamadaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28CC9E1DCF4D6800D485F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F28CCA01DCF4D6800D485F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F28CCA31DCF4D6800D485F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F28CCA51DCF4D6800D485F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F28CCA81DCF4D6800D485F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F28CCAA1DCF4D6800D485F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F28CCAF1DCF4D6800D485F8 /* yamadaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yamadaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28CCB31DCF4D6800D485F8 /* yamadaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yamadaAppTests.swift; sourceTree = "<group>"; };
+		7F28CCB51DCF4D6800D485F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F28CCBA1DCF4D6800D485F8 /* yamadaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yamadaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F28CCBE1DCF4D6800D485F8 /* yamadaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yamadaAppUITests.swift; sourceTree = "<group>"; };
+		7F28CCC01DCF4D6800D485F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F28CC981DCF4D6800D485F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCAC1DCF4D6800D485F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCB71DCF4D6800D485F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F28CC921DCF4D6800D485F8 = {
+			isa = PBXGroup;
+			children = (
+				7F28CC9D1DCF4D6800D485F8 /* yamadaApp */,
+				7F28CCB21DCF4D6800D485F8 /* yamadaAppTests */,
+				7F28CCBD1DCF4D6800D485F8 /* yamadaAppUITests */,
+				7F28CC9C1DCF4D6800D485F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F28CC9C1DCF4D6800D485F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F28CC9B1DCF4D6800D485F8 /* yamadaApp.app */,
+				7F28CCAF1DCF4D6800D485F8 /* yamadaAppTests.xctest */,
+				7F28CCBA1DCF4D6800D485F8 /* yamadaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F28CC9D1DCF4D6800D485F8 /* yamadaApp */ = {
+			isa = PBXGroup;
+			children = (
+				7F28CC9E1DCF4D6800D485F8 /* AppDelegate.swift */,
+				7F28CCA01DCF4D6800D485F8 /* ViewController.swift */,
+				7F28CCA21DCF4D6800D485F8 /* Main.storyboard */,
+				7F28CCA51DCF4D6800D485F8 /* Assets.xcassets */,
+				7F28CCA71DCF4D6800D485F8 /* LaunchScreen.storyboard */,
+				7F28CCAA1DCF4D6800D485F8 /* Info.plist */,
+			);
+			path = yamadaApp;
+			sourceTree = "<group>";
+		};
+		7F28CCB21DCF4D6800D485F8 /* yamadaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F28CCB31DCF4D6800D485F8 /* yamadaAppTests.swift */,
+				7F28CCB51DCF4D6800D485F8 /* Info.plist */,
+			);
+			path = yamadaAppTests;
+			sourceTree = "<group>";
+		};
+		7F28CCBD1DCF4D6800D485F8 /* yamadaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F28CCBE1DCF4D6800D485F8 /* yamadaAppUITests.swift */,
+				7F28CCC01DCF4D6800D485F8 /* Info.plist */,
+			);
+			path = yamadaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F28CC9A1DCF4D6800D485F8 /* yamadaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28CCC31DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaApp" */;
+			buildPhases = (
+				7F28CC971DCF4D6800D485F8 /* Sources */,
+				7F28CC981DCF4D6800D485F8 /* Frameworks */,
+				7F28CC991DCF4D6800D485F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yamadaApp;
+			productName = yamadaApp;
+			productReference = 7F28CC9B1DCF4D6800D485F8 /* yamadaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F28CCAE1DCF4D6800D485F8 /* yamadaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28CCC61DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaAppTests" */;
+			buildPhases = (
+				7F28CCAB1DCF4D6800D485F8 /* Sources */,
+				7F28CCAC1DCF4D6800D485F8 /* Frameworks */,
+				7F28CCAD1DCF4D6800D485F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F28CCB11DCF4D6800D485F8 /* PBXTargetDependency */,
+			);
+			name = yamadaAppTests;
+			productName = yamadaAppTests;
+			productReference = 7F28CCAF1DCF4D6800D485F8 /* yamadaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F28CCB91DCF4D6800D485F8 /* yamadaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F28CCC91DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaAppUITests" */;
+			buildPhases = (
+				7F28CCB61DCF4D6800D485F8 /* Sources */,
+				7F28CCB71DCF4D6800D485F8 /* Frameworks */,
+				7F28CCB81DCF4D6800D485F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F28CCBC1DCF4D6800D485F8 /* PBXTargetDependency */,
+			);
+			name = yamadaAppUITests;
+			productName = yamadaAppUITests;
+			productReference = 7F28CCBA1DCF4D6800D485F8 /* yamadaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F28CC931DCF4D6800D485F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "reo harada";
+				TargetAttributes = {
+					7F28CC9A1DCF4D6800D485F8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7F28CCAE1DCF4D6800D485F8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F28CC9A1DCF4D6800D485F8;
+					};
+					7F28CCB91DCF4D6800D485F8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F28CC9A1DCF4D6800D485F8;
+					};
+				};
+			};
+			buildConfigurationList = 7F28CC961DCF4D6800D485F8 /* Build configuration list for PBXProject "yamadaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F28CC921DCF4D6800D485F8;
+			productRefGroup = 7F28CC9C1DCF4D6800D485F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F28CC9A1DCF4D6800D485F8 /* yamadaApp */,
+				7F28CCAE1DCF4D6800D485F8 /* yamadaAppTests */,
+				7F28CCB91DCF4D6800D485F8 /* yamadaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F28CC991DCF4D6800D485F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28CCA91DCF4D6800D485F8 /* LaunchScreen.storyboard in Resources */,
+				7F28CCA61DCF4D6800D485F8 /* Assets.xcassets in Resources */,
+				7F28CCA41DCF4D6800D485F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCAD1DCF4D6800D485F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCB81DCF4D6800D485F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F28CC971DCF4D6800D485F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28CCA11DCF4D6800D485F8 /* ViewController.swift in Sources */,
+				7F28CC9F1DCF4D6800D485F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCAB1DCF4D6800D485F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28CCB41DCF4D6800D485F8 /* yamadaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F28CCB61DCF4D6800D485F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28CCBF1DCF4D6800D485F8 /* yamadaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F28CCB11DCF4D6800D485F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F28CC9A1DCF4D6800D485F8 /* yamadaApp */;
+			targetProxy = 7F28CCB01DCF4D6800D485F8 /* PBXContainerItemProxy */;
+		};
+		7F28CCBC1DCF4D6800D485F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F28CC9A1DCF4D6800D485F8 /* yamadaApp */;
+			targetProxy = 7F28CCBB1DCF4D6800D485F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F28CCA21DCF4D6800D485F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28CCA31DCF4D6800D485F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F28CCA71DCF4D6800D485F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F28CCA81DCF4D6800D485F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F28CCC11DCF4D6800D485F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F28CCC21DCF4D6800D485F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F28CCC41DCF4D6800D485F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yamadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F28CCC51DCF4D6800D485F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = yamadaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7F28CCC71DCF4D6800D485F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yamadaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yamadaApp.app/yamadaApp";
+			};
+			name = Debug;
+		};
+		7F28CCC81DCF4D6800D485F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yamadaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yamadaApp.app/yamadaApp";
+			};
+			name = Release;
+		};
+		7F28CCCA1DCF4D6800D485F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yamadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yamadaApp;
+			};
+			name = Debug;
+		};
+		7F28CCCB1DCF4D6800D485F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = yamadaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AppAcademia.yamadaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yamadaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F28CC961DCF4D6800D485F8 /* Build configuration list for PBXProject "yamadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28CCC11DCF4D6800D485F8 /* Debug */,
+				7F28CCC21DCF4D6800D485F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F28CCC31DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28CCC41DCF4D6800D485F8 /* Debug */,
+				7F28CCC51DCF4D6800D485F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F28CCC61DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28CCC71DCF4D6800D485F8 /* Debug */,
+				7F28CCC81DCF4D6800D485F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F28CCC91DCF4D6800D485F8 /* Build configuration list for PBXNativeTarget "yamadaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F28CCCA1DCF4D6800D485F8 /* Debug */,
+				7F28CCCB1DCF4D6800D485F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F28CC931DCF4D6800D485F8 /* Project object */;
+}
