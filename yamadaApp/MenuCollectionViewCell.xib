@@ -1,19 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MenuCollectionViewCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MenuCollectionViewCell" customModule="yamadaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="644-Re-EKg">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2at-pJ-USb">
+                                <rect key="frame" x="1" y="1" width="98" height="38"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7h-2k-LQh">
+                                        <rect key="frame" x="28" y="8" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="k7h-2k-LQh" firstAttribute="centerY" secondItem="2at-pJ-USb" secondAttribute="centerY" id="7jI-q6-ZXi"/>
+                                    <constraint firstItem="k7h-2k-LQh" firstAttribute="centerX" secondItem="2at-pJ-USb" secondAttribute="centerX" id="KFm-s1-v3W"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2at-pJ-USb" firstAttribute="top" secondItem="644-Re-EKg" secondAttribute="top" constant="1" id="CDc-iq-GwM"/>
+                            <constraint firstItem="2at-pJ-USb" firstAttribute="leading" secondItem="644-Re-EKg" secondAttribute="leading" constant="1" id="EtU-KE-yxa"/>
+                            <constraint firstAttribute="bottom" secondItem="2at-pJ-USb" secondAttribute="bottom" constant="1" id="GU8-Yq-kzm"/>
+                            <constraint firstAttribute="trailing" secondItem="2at-pJ-USb" secondAttribute="trailing" constant="1" id="IcJ-re-sTJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
+            <constraints>
+                <constraint firstItem="644-Re-EKg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4yW-iy-Kog"/>
+                <constraint firstAttribute="trailing" secondItem="644-Re-EKg" secondAttribute="trailing" id="KuD-yM-snG"/>
+                <constraint firstItem="644-Re-EKg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="L01-0P-ORY"/>
+                <constraint firstAttribute="bottom" secondItem="644-Re-EKg" secondAttribute="bottom" id="sBI-of-Ol5"/>
+            </constraints>
+            <connections>
+                <outlet property="menuLabel" destination="k7h-2k-LQh" id="076-ha-HdC"/>
+            </connections>
         </collectionViewCell>
     </objects>
 </document>

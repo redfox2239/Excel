@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TextCollectionViewCell" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TextCollectionViewCell" customModule="yamadaApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rkh-gU-75G">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CC-3s-nFv">
+                                <rect key="frame" x="1" y="1" width="98" height="38"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6mg-CW-6H8">
+                                        <rect key="frame" x="1" y="0.0" width="96" height="38"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="6mg-CW-6H8" secondAttribute="bottom" id="A1Q-hq-OeC"/>
+                                    <constraint firstItem="6mg-CW-6H8" firstAttribute="top" secondItem="5CC-3s-nFv" secondAttribute="top" id="Cwx-mt-iiK"/>
+                                    <constraint firstItem="6mg-CW-6H8" firstAttribute="leading" secondItem="5CC-3s-nFv" secondAttribute="leading" constant="1" id="FfM-rF-jwr"/>
+                                    <constraint firstAttribute="trailing" secondItem="6mg-CW-6H8" secondAttribute="trailing" constant="1" id="o44-3T-nS5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5CC-3s-nFv" firstAttribute="leading" secondItem="Rkh-gU-75G" secondAttribute="leading" constant="1" id="0Nb-DT-xHg"/>
+                            <constraint firstItem="5CC-3s-nFv" firstAttribute="top" secondItem="Rkh-gU-75G" secondAttribute="top" constant="1" id="6V3-81-ZV3"/>
+                            <constraint firstAttribute="bottom" secondItem="5CC-3s-nFv" secondAttribute="bottom" constant="1" id="hNj-ij-aAz"/>
+                            <constraint firstAttribute="trailing" secondItem="5CC-3s-nFv" secondAttribute="trailing" constant="1" id="p6p-KA-uhw"/>
+                        </constraints>
+                    </view>
+                </subviews>
             </view>
+            <constraints>
+                <constraint firstItem="Rkh-gU-75G" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ARR-Yh-cpS"/>
+                <constraint firstAttribute="bottom" secondItem="Rkh-gU-75G" secondAttribute="bottom" id="QIx-l3-qKm"/>
+                <constraint firstItem="Rkh-gU-75G" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Qvp-9y-Zf2"/>
+                <constraint firstAttribute="trailing" secondItem="Rkh-gU-75G" secondAttribute="trailing" id="d6f-kd-DkA"/>
+            </constraints>
+            <connections>
+                <outlet property="textField" destination="6mg-CW-6H8" id="uQS-sR-khG"/>
+            </connections>
         </collectionViewCell>
     </objects>
 </document>
